@@ -1,0 +1,47 @@
+2023-03-12T00:24:12.563-05:00  INFO 14820 --- [main] api.cinestar.ApiCinestarApplication      : Starting ApiCinestarApplication using Java 17.0.6 with PID 14820 (C:\Users\USER\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\apiCinestar\target\classes started by USER in C:\Users\USER\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\apiCinestar)
+2023-03-12T00:24:12.565-05:00  INFO 14820 --- [main] api.cinestar.ApiCinestarApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-12T00:24:13.144-05:00  INFO 14820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-12T00:24:13.171-05:00  INFO 14820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2023-03-12T00:24:13.665-05:00  INFO 14820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-12T00:24:13.674-05:00  INFO 14820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-12T00:24:13.675-05:00  INFO 14820 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-12T00:24:13.768-05:00  INFO 14820 --- [main] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-03-12T00:24:13.769-05:00  INFO 14820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1166 ms
+2023-03-12T00:24:13.866-05:00  INFO 14820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-12T00:24:13.993-05:00  INFO 14820 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3757e8e2
+2023-03-12T00:24:13.995-05:00  INFO 14820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-12T00:24:14.033-05:00  INFO 14820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-12T00:24:14.073-05:00  INFO 14820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-12T00:24:14.347-05:00  WARN 14820 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-03-12T00:24:14.350-05:00  INFO 14820 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-12T00:24:14.562-05:00  INFO 14820 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-12T00:24:14.571-05:00  INFO 14820 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-12T00:24:14.633-05:00  WARN 14820 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-12T00:24:14.909-05:00  INFO 14820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-03-12T00:24:14.916-05:00  INFO 14820 --- [main] api.cinestar.ApiCinestarApplication      : Started ApiCinestarApplication in 2.69 seconds (process running for 3.378)
+2023-03-12T01:53:28.249-05:00  INFO 14820 --- [RMI TCP Connection(99)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-12T01:53:28.277-05:00  INFO 14820 --- [RMI TCP Connection(99)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-12T01:53:28.293-05:00  INFO 14820 --- [RMI TCP Connection(99)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-12T01:53:28.294-05:00  INFO 14820 --- [RMI TCP Connection(99)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-12T01:53:28.296-05:00  INFO 14820 --- [RMI TCP Connection(99)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-12T01:53:30.896-05:00  INFO 19312 --- [main] api.cinestar.ApiCinestarApplication      : Starting ApiCinestarApplication using Java 17.0.6 with PID 19312 (C:\Users\USER\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\apiCinestar\target\classes started by USER in C:\Users\USER\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\apiCinestar)
+2023-03-12T01:53:30.900-05:00  INFO 19312 --- [main] api.cinestar.ApiCinestarApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-12T01:53:31.376-05:00  INFO 19312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-12T01:53:31.523-05:00  INFO 19312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 3 JPA repository interfaces.
+2023-03-12T01:53:31.957-05:00  INFO 19312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-12T01:53:31.965-05:00  INFO 19312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-12T01:53:31.965-05:00  INFO 19312 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-12T01:53:32.081-05:00  INFO 19312 --- [main] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-03-12T01:53:32.082-05:00  INFO 19312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1147 ms
+2023-03-12T01:53:32.154-05:00  INFO 19312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-12T01:53:32.285-05:00  INFO 19312 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48cd319d
+2023-03-12T01:53:32.287-05:00  INFO 19312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-12T01:53:32.321-05:00  INFO 19312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-12T01:53:32.365-05:00  INFO 19312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-12T01:53:32.646-05:00  WARN 19312 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-03-12T01:53:32.650-05:00  INFO 19312 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-12T01:53:33.189-05:00  INFO 19312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-12T01:53:33.197-05:00  INFO 19312 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-12T01:53:33.459-05:00  WARN 19312 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-12T01:53:33.757-05:00  INFO 19312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-03-12T01:53:33.763-05:00  INFO 19312 --- [main] api.cinestar.ApiCinestarApplication      : Started ApiCinestarApplication in 3.244 seconds (process running for 4.121)
